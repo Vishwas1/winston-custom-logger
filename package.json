@@ -1,0 +1,27 @@
+{
+  "name": "winston-custom-logger",
+  "version": "1.1.0",
+  "description": "wrapper on top of winston to give some more functionality",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "nodemon src/Logger.ts",
+    "build": "rimraf dist && tsc -p .",
+    "test": "node test/testLogger.js"
+  },
+  "author": "Vishwas Anand Bhushan",
+  "license": "MIT",
+  "dependencies": {
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.17.0",
+    "@types/cors": "^2.8.5",
+    "@types/method-override": "0.0.31",
+    "@types/morgan": "^1.7.35",
+    "@types/node": "^12.6.1",
+    "nodemon": "^1.19.1",
+    "rimraf": "^2.6.3",
+    "ts-node": "^8.3.0",
+    "typerscript": "^0.2.3"
+  }
+}
